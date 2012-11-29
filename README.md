@@ -14,7 +14,7 @@ INSTRUCTIONS:
 
 1) Modify the $key variable with your own key.
 
-2) Save data.php to a directory that is publicly available via HTTP. You might want to put it in its own subdirectory e.g. /twintest/data.php
+2) Save data.php to a directory that is publicly available via HTTP. You might want to put it in its own subdirectory (e.g. /twintest/data.php).
 
 3) Set up a Twine rule with an "HTTP Request" action. The URL for the HTTP request should point to the file you just saved in the step above (e.g. http://example.com/twinetest/data.php?key=<your key>&orientation=[orientation]). Make sure that both the key and orientation parameters are being passed.
 
